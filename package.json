@@ -1,7 +1,7 @@
 {
   "name": "sudoku-checker",
   "version": "1.0.0",
-  "description": "Identify what type of triangle you would get from inputting three side lengths.",
+  "description": "This is a sudoku checker to practice setting up webpacks",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
