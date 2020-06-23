@@ -17,7 +17,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new UglifyJsPlugin({ sourceMap: true }),
     new HtmlWebpackPlugin({
-      title: 'Triangle Tracker',
+      title: 'sudoku-checker',
       template: './src/index.html',
       inject: 'body'
     })

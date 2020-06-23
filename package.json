@@ -1,30 +1,31 @@
 {
-  "name": "triangle-tracker-2",
+  "name": "sudoku-checker",
   "version": "1.0.0",
   "description": "Identify what type of triangle you would get from inputting three side lengths.",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
-    "start": "npm run build & webpack-dev-server --open --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hubba180/triangle-tracker-2.git"
+    "url": "git+https: //github.com/tayphill13/Sudoku-Checker.git"
   },
   "keywords": [],
   "author": "Kyle, Taylor, Noel, and Cody",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hubba180/triangle-tracker-2/issues"
+    "url": "https://github.com/tayphill13/Sudoku-Checker/issues"
   },
-  "homepage": "https://github.com/hubba180/triangle-tracker-2#readme",
+  "homepage": "https://github.com/tayphill13/Sudoku-Checker#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
+    "dotenv-webpack": "^1.8.0",
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
